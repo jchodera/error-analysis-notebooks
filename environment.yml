@@ -1,11 +1,8 @@
 name: jupyter
 channels:
-- omnia/label/dev
 - conda-forge
-- omnia
 - defaults
 dependencies:
-- appnope=0.1.0=py36_0
 - backports=1.0=py36_1
 - backports.functools_lru_cache=1.4=py36_1
 - blas=1.1=openblas
@@ -99,4 +96,3 @@ dependencies:
   - jupyter-core==4.4.0
   - prompt-toolkit==1.0.15
 prefix: /Users/choderaj/miniconda/envs/jupyter
-
